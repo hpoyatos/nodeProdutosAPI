@@ -1,0 +1,29 @@
+{
+  "name": "meu-api-server-poyatos",
+  "version": "0.3.0",
+  "description": "Um exemplo simples de servidor API, com uma entidade produtos, armazenando em banco de dados SQLite autenticando com JWT.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^2.0.1"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/glitch-hello-node"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "sqlite3"
+  ]
+}
